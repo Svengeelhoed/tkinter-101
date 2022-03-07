@@ -10,7 +10,7 @@ def time():
     lbl.config(text = string)
     lbl.after(1000, time)
  
-lbl = tkinter.Label(root, font = ('comicsans', 40, 'bold'),
+lbl = tkinter.Label(root, font = ("Comic Sans MS", 40, 'bold'),
             background = 'lightblue',
             foreground = 'black')
 
